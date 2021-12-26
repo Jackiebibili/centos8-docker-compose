@@ -1,0 +1,7 @@
+version: "3"
+services:
+  system:
+    container_name: centos-container
+    image: arm64v8/centos:centos8
+    volumes:
+      - /Users/jack-li/centos-docker:/home/jack-li
