@@ -4,5 +4,5 @@
 * The container created is named `centos-container`.
 * You are free to change the mount volumes to other directories on your host machine. Syntax for mount volumes is `[my-local-dir]:[virtual-dir]`.
 * You can also commit the container changes to be stored in a new image by running `docker commit centos-container [new-image-name:version] [-m "message about this commit"]`. This will save the changes, so your modifications on the virtual system will not be lost when you remove the current container.
-* For subsequent container startups, change the docker-compose image to the local image you committed.
-* To use VS Code remote container, select `Open Folder in Container` in the commit palette. Then, choose the current folder, and VS Code will set everything up for you. [Read](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) how to use devcontainer.json file.
+* For subsequent container startups, change the docker-compose image to the local image you just committed.
+* To use VS Code remote container, select `Open Folder in Container` in the command palette. Then, choose the current folder, and VS Code will set everything up for you. [Read](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) how to use devcontainer.json file.
