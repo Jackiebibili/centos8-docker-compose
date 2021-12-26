@@ -2,7 +2,7 @@ version: "3"
 services:
   system:
     container_name: centos-container
-    image: arm64v8/centos:centos8
+    image: centos/practice:latest # for initial pull, use arm64v8/centos:centos8
     stdin_open: true # docker run -i
     tty: true        # docker run -t
     volumes:
