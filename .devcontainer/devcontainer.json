@@ -2,7 +2,7 @@
    // property reference:
    // https://code.visualstudio.com/docs/remote/devcontainerjson-reference#_lifecycle-scripts
    "name": "Linux Practice",
-   "dockerComposeFile": "./docker-compose.yml",
+   "dockerComposeFile": "/Users/jack-li/centos-docker/docker-compose.yml",
    "service": "system",
    "forwardPorts": [3000, 8080, 8096],
    "remoteUser": "jack-li",
